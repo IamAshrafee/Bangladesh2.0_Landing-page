@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fira sans;
+}
+body {
+  background: rgb(245, 245, 245);
+}
+
+/* Shared Style */
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+.section-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mini-des {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mini-btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  border: none;
+  padding: 11px 20px 11px 20px;
+}
+
+/* Navbar started */
+nav {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 0px;
+}
+
+.navbar span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: Align left;
+}
+
+.navbar button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 15px 30px 15px 30px;
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+}
+
+/* // hero section  */
+
+.banner {
+  margin: 30px 0px 80px 0px;
+}
+
+.banner-content p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-content h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 622px;
+  margin: 16px 0px 24px;
+}
+.banner-content button {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  border: none;
+}
+
+.banner-container {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  padding: 80px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Future section  */
+
+.future {
+}
+.future h1 {
+  margin-bottom: 24px;
+}
+
+.cards {
+  margin: 32px 0px 32px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 410.67px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+}
+.card img {
+  margin-bottom: 26px;
+}
+.card h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card p {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.card button {
+  border-radius: 8px;
+
+  background: rgb(84, 144, 245);
+}
+
+.quote {
+  position: relative;
+  padding: 48px 24px 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.quote h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 12px 0px 8px;
+}
+
+.quote img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+/* Recent News starts from here */
+.recent-news {
+  margin: 80px 0px;
+}
+.news-container {
+}
+.recent-news h1 {
+  margin-bottom: 16px;
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 48px;
+  gap: 32px;
+  margin-top: 26px;
+}
+.card1 h1 {
+}
+.card1 p {
+  margin: 12px 0px;
+}
+.card1 button {
+  margin-top: 32px;
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+}
+.card1 img {
+  border-radius: 24px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+/* Footer starts from here */
+
+footer {
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 50px 0px 31px;
+  text-align: center;
+}
+
+footer .icon {
+  display: flex;
+  gap: 23px;
+  padding: 32px 0px 50px;
+  justify-content: center;
+  align-items: center;
+}
