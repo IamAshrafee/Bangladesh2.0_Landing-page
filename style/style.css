@@ -7,6 +7,9 @@
 body {
   background: rgb(245, 245, 245);
 }
+button {
+  cursor: pointer;
+}
 
 /* Shared Style */
 .container {
@@ -84,6 +87,10 @@ nav {
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
 }
+.navbar button:hover {
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+}
 
 /* // hero section  */
 
@@ -123,6 +130,12 @@ nav {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   border: none;
+  border: 1px solid rgb(0, 106, 80);
+}
+.banner-content button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
 }
 
 .banner-container {
@@ -230,8 +243,13 @@ nav {
 .card1 button {
   margin-top: 32px;
   border-radius: 8px;
-
+  border: 1px solid rgb(0, 106, 80);
   background: rgb(0, 106, 80);
+}
+.card1 button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
 }
 .card1 img {
   border-radius: 24px;
@@ -268,4 +286,141 @@ footer .icon {
   padding: 32px 0px 50px;
   justify-content: center;
   align-items: center;
+}
+
+/* Donate section starts from here  */
+.donate {
+}
+.donate-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.donate-container h1 {
+  margin-bottom: 24px;
+}
+.donate-container p {
+text-align: center;
+}
+.takas {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 32px 0px;
+}
+.taka {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.taka:hover {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(198, 228, 214);
+}
+.donate-container input {
+  width: 1032px;
+  padding: 20px 40px 20px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.donate-container button {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgb(0, 106, 80);
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
+  margin-top: 32px;
+}
+.donate-container button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
+}
+
+/* NewsLetter section starts here */
+.newsletter {
+  padding: 80px 0px;
+}
+.newsletter-container {
+  padding: 80px 100px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background: rgb(198, 228, 214);
+}
+.newsletter-container h1 {
+  text-align: center;
+  margin: 0px 0px 16px 0px;
+}
+.newsletter-container p {
+  width: 622px;
+  text-align: center;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0px;
+}
+.input input {
+  padding: 18px 40px 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  width: 600px;
+  height: 55px;
+}
+.input button {
+  padding: 17px 34px 17px 34px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  background: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
+}
+.input button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
 }
